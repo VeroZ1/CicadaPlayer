@@ -6,7 +6,7 @@ def fullPackage = System.getenv("ANDROID_FULL_PACKAGE")
 println("fullpackage = ${fullPackage}")
 
 android {
-    ndkVersion '23.2.8568313'
+    ndkVersion '24.0.8215888'
 
     publishNonDefault true //this line
 
