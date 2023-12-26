@@ -20,7 +20,6 @@ ffmpeg_config_add_bsfs aac_adtstoasc h264_mp4toannexb hevc_mp4toannexb extract_e
 ffmpeg_config_add_protocols file rtmp
 ffmpeg_config_add_filters atempo aresample aformat volume
 
-ffmpeg_config_add_user "--enable-dts"
 #ffmpeg_config_add_user "--enable-libxml2"
 #ffmpeg_config_add_demuxers dash
 
